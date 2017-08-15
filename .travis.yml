@@ -1,0 +1,22 @@
+sudo: false
+
+language: cpp
+
+compiler:
+  #- clang
+  - gcc
+
+branches:
+  only:
+    - master
+
+script:
+  - make
+  - make clean
+
+before_deploy:
+
+deploy:
+
+after_deploy:
+
