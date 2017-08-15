@@ -1,5 +1,1 @@
-.dep.inc
-Makefile
-build
-dist
-nbproject
+.DS_Store
