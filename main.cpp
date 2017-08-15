@@ -295,7 +295,7 @@ void PrintInfo() {
     cout << " Seite 37                     http://tmsn.at\n 6433 Oetz\n";
     cout << " AUSTRIA             Version: " << Version::FULLVERSION_STRING << Version::STATUS_SHORT;
     cout << " (" << Version::STATUS << ")\n\n";
-    cout << " https://github.com/freefallcid/\n\n";
+    cout << " https://github.com/freefallcid/Fewo-Blacklist/\n\n";
 #ifndef _WIN32
     cout << "\033[0m";
 #endif
