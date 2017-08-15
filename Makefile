@@ -1,5 +1,5 @@
 TARGET=fewo-blacklist
-LIBS=-lm
+LIBS=
 CC=g++
 CFLAGS=-march=native -O2 -g -Wall
 
