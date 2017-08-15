@@ -6,6 +6,8 @@ The following two files need to exist in the (actual) working directory.
 * `daten.txt` - can be empty
 * `counter.txt` - write a single zero (`0`) into the first line
 
+**You can also create those files with `make reset`.**
+
 ## For example
 
 ### Put the files into your home directory
@@ -20,16 +22,16 @@ It does not care where the binary file is, as long as you are in that specific d
 
 ### Change the source code to use absolute paths
 
-Open main.cpp and re-define the filename of those two files (that information is on line 60 and 61).
+Open main.cpp and re-define the filename of those two files (that information is on line 80 and 81).
 
-```C++
+``` C++
   const char * cFilename = "daten.txt";
   const char * cCounter  = "counter.txt";
 ```
 
 You can easily change this to something else and compile again.
 
-```C++
+``` C++
   const char * cFilename = "/var/lib/blacklist/daten.txt";
   const char * cCounter  = "/var/lib/blacklist/counter.txt";
 ```
