@@ -1,3 +1,10 @@
+# Program data files
+daten.txt
+counter.txt
+
+# OS specific files
 .DS_Store
+
+# Build related files
 fewo-blacklist
 *.o
