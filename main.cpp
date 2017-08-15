@@ -292,7 +292,7 @@ void PrintInfo() {
     cout << "\033[1;32m";
 #endif
     cout << "\n Dominic Reich       Kontakt: dominic@mm.st\n";
-    cout << " Seite 37                     http://tmsn.at\n 6433 Oetz\n";
+    cout << " Seite 37            http://dominicreich.com/work/tools/\n 6433 Oetz\n";
     cout << " AUSTRIA             Version: " << Version::FULLVERSION_STRING << Version::STATUS_SHORT;
     cout << " (" << Version::STATUS << ")\n\n";
     cout << " https://github.com/freefallcid/Fewo-Blacklist/\n\n";
