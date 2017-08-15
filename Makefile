@@ -3,8 +3,6 @@ LIBS=
 CC=g++
 CFLAGS=-march=native -O2 -g -Wall
 
-.PHONY: default all clean
-
 default: $(TARGET)
 all: default
 
@@ -13,8 +11,6 @@ HEADERS = $(wildcard *.h)
 
 %.o: %.c $(HEADERS)
 	$(CC) $(CFLAGS) -c $< -o $@
-
-.PRECIOUS: $(TARGET) $(OBJECTS)
 
 $(TARGET): $(OBJECTS)
 	$(CC) $(OBJECTS) -Wall $(LIBS) -o $@
