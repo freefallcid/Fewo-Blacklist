@@ -1,3 +1,8 @@
+# Ferienwohnung Management
+# File: Makefile
+#
+# Last modified: 18.08.2017
+
 TARGET=fewo-blacklist
 LIBS=
 CC=g++
