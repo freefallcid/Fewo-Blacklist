@@ -1,4 +1,4 @@
-# Fewo-Blacklist [![Build Status](https://travis-ci.org/freefallcid/Fewo-Blacklist.svg?branch=master)](https://travis-ci.org/freefallcid/Fewo-Blacklist)
+# Fewo-Blacklist [![Build Status](https://travis-ci.org/freefallcid/Fewo-Blacklist.svg?branch=master)](https://travis-ci.org/freefallcid/Fewo-Blacklist) [![Build Status](https://travis-ci.org/freefallcid/Fewo-Blacklist.svg?branch=sqlite)](https://travis-ci.org/freefallcid/Fewo-Blacklist)
 
 A simple command line tool to manage a blacklist.
 The following two files need to exist in the (actual) working directory.
