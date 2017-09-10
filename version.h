@@ -1,4 +1,4 @@
-/* 
+/*
  * Ferienwohnung Blacklist Version Information
  * File:   version.h
  *
@@ -13,20 +13,20 @@
 #define	VERSION_H
 
 namespace Version{
-	
+
 	//Software Status
 	static const char STATUS[] =  "Beta";
 	static const char STATUS_SHORT[] =  "b";
-	
+
 	//Standard Version Type
 	static const long MAJOR  = 0;
-	static const long MINOR  = 2;
+	static const long MINOR  = 3;
 	static const long BUILD  = 1;
 	//static const long REVISION  = 0;
-	
+
 	//Miscellaneous Version Types
 	//static const long BUILDS_COUNT  = 0;
-	static const char FULLVERSION_STRING [] = "0.2.1";
+	static const char FULLVERSION_STRING [] = "0.3.1";
 
 }
 
