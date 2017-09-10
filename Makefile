@@ -1,10 +1,10 @@
 # Ferienwohnung Management
 # File: Makefile
 #
-# Last modified: 18.08.2017
+# Last modified: Sonntag, 10.09.2017 11:09
 
 TARGET=fewo-blacklist
-LIBS=
+LIBS=-lsqlite3
 CC=g++
 CFLAGS=-march=native -O2 -g -Wall
 

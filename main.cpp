@@ -4,7 +4,7 @@
  *
  * Author: Dominic Reich <dominic@tmsn.at>
  * Created on 20. Februar 2016, 16:11
- * Last modified: Freitag, 04.03.2016 23:39
+ * Last modified: Sonntag, 10.09.2017 11:08
  *
  * The MIT License (MIT) {{{
  *
@@ -35,7 +35,7 @@
 #include <fstream>
 #include <limits>
 #include <string>
-#include <sqlite3>
+#include <sqlite3.h>
 #include "version.h"
 
 using namespace std;
@@ -295,7 +295,7 @@ void PrintInfo() {
     cout << "\n Dominic Reich       Kontakt: dominic@mm.st\n";
     cout << " Seite 37            http://dominicreich.com/work/tools/\n 6433 Oetz\n";
     cout << " AUSTRIA             Version: " << Version::FULLVERSION_STRING << Version::STATUS_SHORT;
-    cout << " (" << Version::STATUS << ")\n\n";
+    cout << " (" << Version::STATUS << ") [" << Version::EDITION << "]\n\n";
     cout << " https://github.com/freefallcid/Fewo-Blacklist/\n\n";
 #ifndef _WIN32
     cout << "\033[0m";

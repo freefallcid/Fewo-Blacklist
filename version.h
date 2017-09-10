@@ -18,6 +18,9 @@ namespace Version{
 	static const char STATUS[] =  "Beta";
 	static const char STATUS_SHORT[] =  "b";
 
+	// Edition
+	static const char EDITION[] = "Sqlite-Testing";
+
 	//Standard Version Type
 	static const long MAJOR  = 0;
 	static const long MINOR  = 3;
