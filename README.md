@@ -38,4 +38,4 @@ You can easily change this to something else and compile again.
 
 ## Others
 
-Feedback and suggenstions welcome!
+Feedback and suggestions welcome!
